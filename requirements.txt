@@ -1,0 +1,7 @@
+#
+####### requirements.txt #######
+#
+###### Requirements with Version Specifiers ######
+flask == 0.11.1
+werkzeug == 0.11.2
+numpy == 1.11.2

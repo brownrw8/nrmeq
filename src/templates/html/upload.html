@@ -1,0 +1,24 @@
+ <!DOCTYPE html>
+<!--[if lte IE 6]><html class="preIE7 preIE8 preIE9"><![endif]-->
+<!--[if IE 7]><html class="preIE8 preIE9"><![endif]-->
+<!--[if IE 8]><html class="preIE9"><![endif]-->
+<!--[if gte IE 9]><!--><html><!--<![endif]-->
+  <head>
+    <meta charset="UTF-8">
+    <title>Version {{ version }}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+  </head>
+  <body>
+    <div class="container">
+    <h1>Simple File Upload/Download Endpoint</h1>
+    <h1>Welcome to version {{ version }}</h1>
+    <h2>File Upload</h2>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+      <label class="btn btn-default btn-file">
+          Browse <input type="file" name="file" style="display: none;">
+      </label>
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+    </div>
+  </body>
+</html>
